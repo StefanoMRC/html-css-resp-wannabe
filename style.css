@@ -90,17 +90,21 @@ img {
   }
   #lezioni{
     background-color: rgba(242,242,205,255);
+    padding: 5%;
   }
   #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   width: 90%;
   margin: auto;
+  
 }
 #steps{
   background-color: white;
+  padding: 5%;
 }
 #why{
   background-color:  rgba(242,242,205,255);
+ padding-top: 5%;
 }
 }
