@@ -3,13 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (max-width: 420px){
-#lezioni .row>.left,
-#lezioni .row>.right{
-  width: 100%;
-  float: left;
-}
-}
 
 .row {
   width: 992px;
@@ -83,4 +76,31 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width: 420px){
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+  width: 90%;
+  margin: auto;
+  }
+  .row{
+    width: 90%;
+    margin: auto;
+  }
+  #lezioni{
+    background-color: rgba(242,242,205,255);
+  }
+  #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 90%;
+  margin: auto;
+}
+#steps{
+  background-color: white;
+}
+#why{
+  background-color:  rgba(242,242,205,255);
+}
 }
