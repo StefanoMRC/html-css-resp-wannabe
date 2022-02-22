@@ -107,4 +107,7 @@ img {
   background-color:  rgba(242,242,205,255);
  padding-top: 5%;
 }
+img{
+  height: 150px;
+}
 }
